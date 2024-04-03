@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+#loader {
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  height: 200px;
+  width: 300px;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.card {
+  cursor: pointer;
+  height: 27rem;
+  width: 18rem;
+  background-color: rgb(255, 13, 0);
+}
+.card:hover {
+  scale: 1.03;
+  transition: 0.2s ease-in-out all;
+}
+#addButton {
+  position: fixed;
+  top: 80%;
+  left: 91%;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  font-size: 3rem;
+}
+.button-container {
+  display: flex;
+  position: relative;
+  left: 69%;
+}
+#delete:hover {
+  background-color: red;
+  border: none;
+}
